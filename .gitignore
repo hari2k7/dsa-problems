@@ -35,3 +35,5 @@ compile_commands.json
 # Ignore debug symbols
 *.pdb
 *.dSYM/
+
+*.class
