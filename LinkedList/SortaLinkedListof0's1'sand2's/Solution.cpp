@@ -1,3 +1,28 @@
+/*
+    Problem: Sort a Linked List of 0s, 1s and 2s
+    Difficulty: Medium
+    Topic: Linked List, Sorting
+
+    Problem Statement:
+    Given the head of a linked list containing only 0s, 1s, and 2s,
+    sort the linked list in ascending order.
+
+    Approach:
+    Create three separate lists for nodes containing 0, 1, and 2.
+
+    1. Traverse the original linked list.
+    2. Place each node into the corresponding 0, 1, or 2 list.
+    3. Connect the three lists in the order:
+           0 -> 1 -> 2
+    4. Return the head of the combined list.
+
+    The existing nodes are reused, so no new data nodes are created
+    apart from the three temporary dummy nodes.
+
+    Time Complexity: O(n)
+    Space Complexity: O(1)
+*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
