@@ -31,8 +31,6 @@ This repository contains solutions to DSA problems from various coding platforms
 └── README.md
 ```
 
-> Folder names may vary depending on the repository structure.
-
 ## Topics Covered
 
 - Arrays
@@ -57,11 +55,9 @@ This repository contains solutions to DSA problems from various coding platforms
 
 Solutions are implemented in:
 
-- Java *(Update if different)*
+- Java
 - C++
 - Python
-
-> Remove languages that are not used.
 
 ## Problem Sources
 
